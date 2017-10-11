@@ -1,0 +1,138 @@
+	
+	AND(	
+		>(
+			+(@C(Node1PowerNeed,Link0CircuitBreaker),
+				+(@C(Node2PowerNeed,Link1CircuitBreaker),
+					+(@C(Node3PowerNeed,Link2CircuitBreaker),
+						+(@C(Node4PowerNeed,Link3CircuitBreaker),@C(Node5PowerNeed,Link4CircuitBreaker)
+			  			 )
+					 )
+				 )
+			  )
+		,Node0Generation),
+
+		<=(
+			+(@C(Node2PowerNeed,Link1CircuitBreaker),
+				+(@C(Node3PowerNeed,Link2CircuitBreaker),
+					+(@C(Node4PowerNeed,Link3CircuitBreaker),@C(Node5PowerNeed,Link4CircuitBreaker)
+					 )
+				 )
+			 )
+		
+
+		,Node0Generation)
+	)
+
+
+	#15500#1000#Troca o estado entre link 0 e link 5
+
+AND(	
+		>(
+			+(@C(Node1PowerNeed,Link0CircuitBreaker),
+				+(@C(Node2PowerNeed,Link1CircuitBreaker),
+					+(@C(Node3PowerNeed,Link2CircuitBreaker),
+						+(@C(Node4PowerNeed,Link3CircuitBreaker),@C(Node5PowerNeed,Link4CircuitBreaker)
+			  			 )
+					 )
+				 )
+			  )
+		,Node0Generation),
+
+		<=(
+							+(@C(Node3PowerNeed,Link2CircuitBreaker),
+					+(@C(Node4PowerNeed,Link3CircuitBreaker),@C(Node5PowerNeed,Link4CircuitBreaker)
+					 )
+				 )
+			 
+		
+
+		,Node0Generation)
+	)
+
+
+	#15600#1000#Troca o estado entre link 0,1 e link 5,6
+
+AND(	
+		>(
+			+(@C(Node1PowerNeed,Link0CircuitBreaker),
+				+(@C(Node2PowerNeed,Link1CircuitBreaker),
+					+(@C(Node3PowerNeed,Link2CircuitBreaker),
+						+(@C(Node4PowerNeed,Link3CircuitBreaker),@C(Node5PowerNeed,Link4CircuitBreaker)
+			  			 )
+					 )
+				 )
+			  )
+		,Node0Generation),
+
+		<=(
+				+(@C(Node4PowerNeed,Link3CircuitBreaker),@C(Node5PowerNeed,Link4CircuitBreaker)
+				 )
+				 
+			 
+		
+
+		,Node0Generation)
+	)
+
+
+	#15700#1000#Troca o estado entre link 0,1,2 e link 5,6,7
+
+AND(	
+		>(
+			+(@C(Node1PowerNeed,Link0CircuitBreaker),
+				+(@C(Node2PowerNeed,Link1CircuitBreaker),
+					+(@C(Node3PowerNeed,Link2CircuitBreaker),
+						+(@C(Node4PowerNeed,Link3CircuitBreaker),@C(Node5PowerNeed,Link4CircuitBreaker)
+			  			 )
+					 )
+				 )
+			  )
+		,Node0Generation),
+
+		<=(@C(Node5PowerNeed,Link4CircuitBreaker),Node0Generation)
+	)
+
+
+	#15800#1000#Troca o estado entre link 0,1,2,3 e link 5,6,7,8
+
+
+		>(
+			+(@C(Node1PowerNeed,Link0CircuitBreaker),
+				+(@C(Node2PowerNeed,Link1CircuitBreaker),
+					+(@C(Node3PowerNeed,Link2CircuitBreaker),
+						+(@C(Node4PowerNeed,Link3CircuitBreaker),@C(Node5PowerNeed,Link4CircuitBreaker)
+			  			 )
+					 )
+				 )
+			  )
+		,Node0Generation)
+
+		
+
+
+	#15900#1000#Troca o estado entre link 0,1,2,3,4 e link 5,6,7,8,9
+
+
+
+	
+	AND(	
+		>(
+			+(@C(Node1PowerNeed,Link5CircuitBreaker),
+				+(@C(Node2PowerNeed,Link6CircuitBreaker),
+					+(@C(Node3PowerNeed,Link7CircuitBreaker),
+						+(@C(Node4PowerNeed,Link8CircuitBreaker),@C(Node5PowerNeed,Link9CircuitBreaker)
+			  			 )
+					 )
+				 )
+			  )
+		,Node6Generation),
+		<=(
+			+(@C(Node2PowerNeed,Link6CircuitBreaker),
+				+(@C(Node3PowerNeed,Link7CircuitBreaker),
+					+(@C(Node4PowerNeed,Link8CircuitBreaker),@C(Node5PowerNeed,Link9CircuitBreaker)
+					 )
+				 )
+			 )
+		,Node6Generation)
+	)
+	#16500#1000#Troca o estado entre link 0 e link 5

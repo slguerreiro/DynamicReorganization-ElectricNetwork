@@ -1,0 +1,6 @@
+AND(>(+(Node1PowerNeed,+(Node2PowerNeed,+(Node3PowerNeed,+(Node4PowerNeed,Node5PowerNeed)))),Node0Generation),=(Link0CircuitBreaker,1))#10#100#Abre Link0
+AND(>(+(Node1PowerNeed,+(Node2PowerNeed,+(Node3PowerNeed,+(Node4PowerNeed,Node5PowerNeed)))),Node0Generation),AND(=(Link0CircuitBreaker,0),=(Link1CircuitBreaker,1)))#11#100#Abre Link1
+AND(>(+(Node1PowerNeed,+(Node2PowerNeed,+(Node3PowerNeed,+(Node4PowerNeed,Node5PowerNeed)))),Node0Generation),AND(AND(=(Link0CircuitBreaker,0),=(Link1CircuitBreaker,0)),=(Link2CircuitBreaker,1)))#12#100#Abre Link2
+AND(>(+(Node1PowerNeed,+(Node2PowerNeed,+(Node3PowerNeed,+(Node4PowerNeed,Node5PowerNeed)))),Node0Generation),AND(AND(AND(=(Link0CircuitBreaker,0),=(Link1CircuitBreaker,0)),=(Link2CircuitBreaker,0)),=(Link3CircuitBreaker,1)))#13#100#Abre Link3
+AND(>(+(Node1PowerNeed,+(Node2PowerNeed,+(Node3PowerNeed,+(Node4PowerNeed,Node5PowerNeed)))),Node0Generation),AND(AND(AND(AND(=(Link0CircuitBreaker,0),=(Link1CircuitBreaker,0)),=(Link2CircuitBreaker,0)),=(Link3CircuitBreaker,0)),=(Link4CircuitBreaker,1)))#14#100#Abre Link4
+<=(+(Node1PowerNeed,+(Node2PowerNeed,+(Node3PowerNeed,+(Node4PowerNeed,Node5PowerNeed)))),Node0Generation)#20#101#Fecha todos links

@@ -1,0 +1,25 @@
+(somatorio consumos) <= geração   ---> fecha todos os disjuntores
+
+(somatorio consumos) > geração -----> abrir os disjuntor até que somatorio consumos <= geracao pela prioridade dos nós.
+
+ 
+(somatorio consumos) > geração & link1==fechado ---> link1=aberto
+(somatorio consumos-node1) > geração & link2==fechado & link1==aberto ---> link2=aberto
+(somatorio consumos-(node1+2)) > geração & link3==fechado & link1==aberto & link2==aberto ---> link3=aberto
+(somatorio consumos-(node1+2+3)) > geração & link4==fechado & link1==aberto & link2==aberto & link3==aberto---> link4=aberto
+(somatorio consumos-(node1+2+3+4)) > geração & link5==fechado & link1==aberto & link2==aberto & link3==aberto & link4==aberto---> link5=aberto
+(somatorio consumos) <= geração ---> link_all = fechado
+
+
+AND(>(+(Node1PowerNeed,+(Node2PowerNeed,+(Node3PowerNeed,+(Node4PowerNeed,Node5PowerNeed)))),Node0Generation),=(Link0CircuitBreaker,true))#10#100#Abre Link0
+
+
+
+
+
+
+<(Node1PowerNeed,20)#1#100#Abre link1
+
+
+
+

@@ -1,0 +1,3 @@
+>(Node1PowerNeed,20)#1#100#Abre link1
+<(Node1PowerNeed,20)#2#100#Fecha link1
+>(Node2PowerNeed,10)#3#100#Abre link2

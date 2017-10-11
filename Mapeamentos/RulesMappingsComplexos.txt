@@ -1,0 +1,6 @@
+12#consumo excessivo no1#OPEN_CircuitBreaker0#10#ABRE estado do disjuntor 0
+12#consumo excessivo no2#OPEN_CircuitBreaker1#11#ABRE estado do disjuntor 1
+12#consumo excessivo no3#OPEN_CircuitBreaker2#12#ABRE estado do disjuntor 2
+12#consumo excessivo no4#OPEN_CircuitBreaker3#13#ABRE estado do disjuntor 3
+12#consumo excessivo no5#OPEN_CircuitBreaker4#14#ABRE estado do disjuntor 4
+12#consumo OK#CLOSEALL_CircuitBreaker#20#FECHA todos os disjuntores

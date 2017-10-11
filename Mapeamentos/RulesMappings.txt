@@ -1,0 +1,41 @@
+12#consumo excessivo no1#OPEN_CircuitBreaker0#10#ABRE estado do disjuntor 0
+12#consumo excessivo no2#OPEN_CircuitBreaker1#11#ABRE estado do disjuntor 1
+12#consumo excessivo no3#OPEN_CircuitBreaker2#12#ABRE estado do disjuntor 2
+12#consumo excessivo no4#OPEN_CircuitBreaker3#13#ABRE estado do disjuntor 3
+12#consumo excessivo no5#OPEN_CircuitBreaker4#14#ABRE estado do disjuntor 4
+12#consumo OK#CLOSEALL_CircuitBreaker#20#FECHA todos os disjuntores
+12#consumo excessivo pelo conjunto 1+2+3+4+5#CLOSEONLY_Production_Node1#70#ABRE apenas disjuntor 0
+12#consumo excessivo pelo conjunto 1+2+3+4+5#CLOSEONLY_Production_Node12#71#ABRE apenas disjuntor 0,1
+12#consumo excessivo pelo conjunto 1+2+3+4+5#CLOSEONLY_Production_Node123#72#ABRE apenas disjuntor 0,1,2
+12#consumo excessivo pelo conjunto 1+2+3+4+5#CLOSEONLY_Production_Node1234#73#ABRE apenas disjuntor 0,1,2,3
+12#consumo excessivo pelo conjunto 1+2+3+4+5#CLOSEONLY_Production_Node12345#74#ABRE apenas disjuntor 0,1,2,3,4
+12#Consumo excessivo no no1#CHANGE_G1_Node1#16000#Troca o link 0 com o link 5_g1
+12#Consumo excessivo no no1,2#CHANGE_G1_Node12#17000#Troca o link 0,1 com o link 5,6_g1
+12#Consumo excessivo no no1,2,3#CHANGE_G1_Node123#18000#Troca o link 0,1,2 com o link 5,6,7_g1
+12#Consumo excessivo no no1,2,3,4#CHANGE_G1_Node1234#19000#Troca o link 0,1,2,3 com o link 5,6,7,8_g1
+12#Consumo excessivo no no1,2,3,4,5#CHANGE_G1_Node12345#20000#Troca o link 0,1,2,3,4,5 com o link 5,6,7,8,9_g1
+12#Consumo excessivo no no1#CHANGE_G2_Node1#16001#Troca o link 4 com o link 9_g2
+12#Consumo excessivo no no1,2#CHANGE_G2_Node12#17001#Troca o link 4,3 com o link 9,8_g2
+12#Consumo excessivo no no1,2,3#CHANGE_G2_Node123#18001#Troca o link 4,3,2 com o link 9,8,7_g2
+12#Consumo excessivo no no1,2,3,4#CHANGE_G2_Node1234#19001#Troca o link 4,3,2,1 com o link 9,8,7,6_g2
+12#Consumo excessivo no no1,2,3,4,5#CHANGE_G2_Node12345#20001#Troca o link 4,3,2,1,0 com o link 9,8,7,6,5_g2
+12#Consumo excessivo no no1_G1#CHANGE_G1_Node1_SPAIN#1000#Troca o link 0 com o link10 _G1
+12#Consumo excessivo no no1,2_G1#CHANGE_G1_Node12_SPAIN#2000#Troca o link 0,1 com o link10,11 _G1
+12#Consumo excessivo no no1,2,3_G1#CHANGE_G1_Node123_SPAIN#3000#Troca o link 0,1,2 com o link10,11,12 _G1
+12#Consumo excessivo no no1,2,3,4_G1#CHANGE_G1_Node1234_SPAIN#4000#Troca o link 0,1,2,3 com o link10,11,12,13 _G1
+12#Consumo excessivo no no1,2,3,4,5_G1#CHANGE_G1_Node12345_SPAIN#5000#Troca o link 0,1,2,3,4 com o link10,11,12,13,14 _G1
+12#Consumo excessivo no no1_G2#CHANGE_G2_Node1_SPAIN#1001#Troca o link 5 com o link10 _G2
+12#Consumo excessivo no no1,2_G2#CHANGE_G2_Node12_SPAIN#2001#Troca o link 5,6 com o link10,11 _G2
+12#Consumo excessivo no no1,2,3_G2#CHANGE_G2_Node123_SPAIN#3001#Troca o link 5,6,7 com o link10,11,12 _G2
+12#Consumo excessivo no no1,2,3,4_G2#CHANGE_G2_Node1234_SPAIN#4001#Troca o link 5,6,7,8 com o link10,11,12,13 _G2
+12#Consumo excessivo no no1,2,3,4,5_G2#CHANGE_G2_Node12345_SPAIN#5001#Troca o link 5,6,7,8,9 com o link10,11,12,13,14 _G2
+12#Consumo OK no no5_G1#CHANGE_SPAIN_Node1_G1#300#Troca o link 14 com o link 4_g1
+12#Consumo OK no no5,4_G1#CHANGE_SPAIN_Node12_G1#310#Troca o link 14,13 com o link 4,3_g1
+12#Consumo OK no no5,4,3_G1#CHANGE_SPAIN_Node123_G1#320#Troca o link 14,13,12 com o link 4,3,2_g1
+12#Consumo OK no no5,4,3,2_G1#CHANGE_SPAIN_Node1234_G1#330#Troca o link 14,13,12,11 com o link 4,3,2,1_g1
+12#Consumo OK no no5,4,3,2,1_G1#CHANGE_SPAIN_Node12345_G1#340#Troca o link 14,13,12,11,10 com o link 4,3,2,1,0_g1
+12#Consumo OK no no1_G2#CHANGE_SPAIN_Node1_G2#350#Troca o link 10 com o link 5_g2
+12#Consumo OK no no1,2_G2#CHANGE_SPAIN_Node12_G2#360#Troca o link 10,11 com o link 5,6_g2
+12#Consumo OK no no1,2,3_G2#CHANGE_SPAIN_Node123_G2#370#Troca o link 10,11,12 com o link 5,6,7_g2
+12#Consumo OK no no1,2,3,4_G2#CHANGE_SPAIN_Node1234_G2#380#Troca o link 10,11,12,13 com o link 5,6,7,8_g2
+12#Consumo OK no no1,2,3,4,5_G2#CHANGE_SPAIN_Node12345_G2#390#Troca o link 10,11,12,13,14 com o link 5,6,7,8,9_g2

@@ -1,0 +1,24 @@
+NodeConsumption#Node1PowerNeed##Consumo do no1
+NodeConsumption#Node2PowerNeed##Consumo do no2
+NodeConsumption#Node3PowerNeed##Consumo do no3
+NodeConsumption#Node4PowerNeed##Consumo do no4
+NodeConsumption#Node5PowerNeed##Consumo do no5
+NodeGeneration#Node0Generation##Geracao do no 0
+NodeGeneration#Node6Generation##Geracao do no 6
+NodeGeneration#Node7Generation##Geracao do no 7 (Infinita)
+Linkcircuit#Link0CircuitBreaker##Estado do link 0
+Linkcircuit#Link1CircuitBreaker##Estado do link 1	
+Linkcircuit#Link2CircuitBreaker##Estado do link 2
+Linkcircuit#Link3CircuitBreaker##Estado do link 3
+Linkcircuit#Link4CircuitBreaker##Estado do link 4
+Linkcircuit#Link5CircuitBreaker##Estado do link 5
+Linkcircuit#Link6CircuitBreaker##Estado do link 6
+Linkcircuit#Link7CircuitBreaker##Estado do link 7
+Linkcircuit#Link8CircuitBreaker##Estado do link 8
+Linkcircuit#Link9CircuitBreaker##Estado do link 9
+Linkcircuit#Link10CircuitBreaker##Estado do link 10
+Linkcircuit#Link11CircuitBreaker##Estado do link 11	
+Linkcircuit#Link12CircuitBreaker##Estado do link 12
+Linkcircuit#Link13CircuitBreaker##Estado do link 13
+Linkcircuit#Link14CircuitBreaker##Estado do link 14
+Tempo#Time##Tempo de simulacao

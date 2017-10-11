@@ -1,0 +1,6 @@
+<=(+(Node1PowerNeed,+(Node2PowerNeed,+(Node3PowerNeed,+(Node4PowerNeed,Node5PowerNeed)))),Node0Generation)#20#101#Fecha todos links
+AND(>(+(Node1PowerNeed,+(Node2PowerNeed,+(Node3PowerNeed,+(Node4PowerNeed,Node5PowerNeed)))),Node0Generation),<=(+(Node2PowerNeed,+(Node3PowerNeed,+(Node4PowerNeed,Node5PowerNeed))),Node0Generation))#70#1000#Abre unicamente o link0
+AND(>(+(Node1PowerNeed,+(Node2PowerNeed,+(Node3PowerNeed,+(Node4PowerNeed,Node5PowerNeed)))),Node0Generation),<=(+(Node3PowerNeed,+(Node4PowerNeed,Node5PowerNeed)),Node0Generation))#71#900#Abre unicamente o link0e1
+AND(>(+(Node1PowerNeed,+(Node2PowerNeed,+(Node3PowerNeed,+(Node4PowerNeed,Node5PowerNeed)))),Node0Generation),<=(+(Node4PowerNeed,Node5PowerNeed),Node0Generation))#72#800#Abre unicamente o link0e1e2
+AND(>(+(Node1PowerNeed,+(Node2PowerNeed,+(Node3PowerNeed,+(Node4PowerNeed,Node5PowerNeed)))),Node0Generation),<=(Node5PowerNeed,Node0Generation))#73#700#Abre unicamente o link0e1e2e3
+AND(>(+(Node1PowerNeed,+(Node2PowerNeed,+(Node3PowerNeed,+(Node4PowerNeed,Node5PowerNeed)))),Node0Generation))#74#600#Abre unicamente o link0e1e2e3e4
